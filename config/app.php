@@ -181,6 +181,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        StuYam\PhoneValidator\PhoneValidatorServiceProvider::class,
+        NotificationChannels\Messagebird\MessagebirdServiceProvider::class,
 
         /*
          * Package Service Providers...

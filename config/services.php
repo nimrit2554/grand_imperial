@@ -31,4 +31,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    // 'recaptcha'=>[
+    //     'key' => env("GOOGLE_RECAPTCHA_KEY"),
+    //     'secret' => env("GOOGLE_RECAPTCHA_SECRET"),
+    // ],
+
+    'messagebird' => [
+        'access_key' => env('MESSAGEBIRD_ACCESS_KEY'),
+        'originator' => env('MESSAGEBIRD_ORIGINATOR'),
+        'recipients' => env('MESSAGEBIRD_RECIPIENTS'),
+    ],
 ];
